@@ -486,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.novi-health.TestProject";
 				PRODUCT_NAME = TestProject;
 				PROVISIONING_PROFILE_SPECIFIER = "Bitrise iOS distribution";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Bitrise iOS distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Distribution Bitrise";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -517,7 +517,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.novi-health.TestProject";
 				PRODUCT_NAME = TestProject;
 				PROVISIONING_PROFILE_SPECIFIER = "Bitrise iOS distribution";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Bitrise iOS distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Distribution Bitrise";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -771,7 +771,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.novi-health.TestProject";
 				PRODUCT_NAME = TestProject;
 				PROVISIONING_PROFILE_SPECIFIER = "Bitrise iOS distribution";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Bitrise iOS distribution";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Distribution Bitrise";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
