@@ -1,11 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
+import Config from 'react-native-config';
 import type {PropsWithChildren} from 'react';
 import {
   SafeAreaView,
@@ -58,6 +52,8 @@ function Section({children, title}: SectionProps): React.JSX.Element {
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
+  console.log({Config});
+
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
@@ -72,6 +68,7 @@ function App(): React.JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Text>Hello this is {Config.ENV}</Text>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
